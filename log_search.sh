@@ -1,5 +1,5 @@
 to_find=$1
-pods=`kubectl -n namespace get po |grep pod_name|awk '{print $1}'|`
+pods=`kubectl -n namespace get po |grep pod_name|awk '{print $1}'`
 for pod in $pods
 do
   echo $pod
