@@ -6,7 +6,7 @@
 sudo pip install paramiko
 ### 使用示例见注释
 
-
+---
 ## log_search.sh
 ### 用途 
 k8s集群上，过滤多个pod上的日志。适合还没有做统一日志管理，但pod副本数较多，日志难找（不知道日志在哪个pod上）的场景
